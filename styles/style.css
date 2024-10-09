@@ -98,11 +98,12 @@ body {
 
 .web-development {
     width: 900px;
-    height: 1000px;
-    border: 2px solid red;
+    height: 1230px;
+    /* border: 2px solid red; */
     margin: 40px auto;
     padding: 70px 90px;
     background-color: rgb(251, 251, 252);
+    border-radius: 20px;
 
 
 
@@ -135,17 +136,19 @@ body {
 }
 
 
-.top-description {
+.top-description,
+.middle-description,
+.last-description {
     display: flex;
     margin-top: 40px;
     margin-bottom: 40px;
     justify-content: space-between;
     background-color: white;
     padding: 32px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
-.top-description>.left {
+.left {
     width: 30%;
 }
 
@@ -180,5 +183,6 @@ body {
     padding: 6px;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 20px;
 
 }
