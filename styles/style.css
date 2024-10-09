@@ -91,3 +91,94 @@ body {
     color: bisque;
     text-decoration: underline;
 }
+
+
+
+/* "why web development?" section style */
+
+.web-development {
+    width: 900px;
+    height: 1000px;
+    border: 2px solid red;
+    margin: 40px auto;
+    padding: 70px 90px;
+    background-color: rgb(251, 251, 252);
+
+
+
+
+}
+
+.web-title {
+    text-align: center;
+    /* width: 900px; */
+    /* border: 1px solid red; */
+}
+
+.web-title>h2 {
+    color: rgb(13, 19, 33);
+    padding: 10px;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.web-title>p {
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.top-description {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    background-color: white;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.top-description>.left {
+    width: 30%;
+}
+
+.web-description h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.web-description p {
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.common-btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
