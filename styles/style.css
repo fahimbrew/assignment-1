@@ -260,7 +260,8 @@ iframe {
 }
 
 /* current target section styles */
-.current-target {
+.current-target,
+.next-target {
     width: 900px;
     margin: 0 auto;
     padding: 70px 90px;
@@ -272,7 +273,7 @@ iframe {
     gap: 15px;
     /* justify-content: space-between; */
     /* align-items: center; */
-    margin: 40px auto;
+    margin: 20px auto;
     /* border: 2px solid red; */
     /* background-color: aquamarine; */
     padding: 10px;
@@ -304,4 +305,36 @@ iframe {
     color: black;
     font-weight: 600;
     font-size: 14px;
+}
+
+
+/* next target section styles */
+
+.next-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.react,
+.nodejs,
+.mongo {
+    /* border: 2px solid green; */
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 15px;
+    box-shadow: 10px 10px 1px rgb(249, 239, 239);
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.react:hover,
+.nodejs:hover,
+.mongo:hover {
+    background-color: rgb(180, 214, 148);
+    transition: 0.15s ease-in;
 }
