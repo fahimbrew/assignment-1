@@ -428,3 +428,48 @@ iframe {
     display: flex;
     gap: 5px;
 }
+
+
+
+
+/* footer styles */
+.footer {
+    width: 1675px;
+    /* border: 2px solid red; */
+    height: 100px;
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.03);
+    /* padding: 25px 70px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 40px; */
+}
+
+.footer-title {
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
+
+.footer-title:hover {
+    color: maroon;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.footer-links a:hover {
+    background-color: rgb(234, 228, 238);
+    border-radius: 20px;
+    /* text-decoration: underline; */
+    transition: 0.16s ease-in;
+
+}
