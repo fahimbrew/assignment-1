@@ -301,6 +301,14 @@ iframe {
     box-shadow: 10px 10px 10px rgb(197, 193, 193);
 }
 
+.html-1:hover,
+.css-1:hover,
+.js-1:hover {
+    background-color: rgb(226, 226, 212);
+    cursor: pointer;
+    transition: 0.15s ease-in;
+}
+
 .link {
     color: black;
     font-weight: 600;
