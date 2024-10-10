@@ -267,8 +267,9 @@ iframe {
 }
 
 .current-container {
-    display: flex;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
     /* justify-content: space-between; */
     /* align-items: center; */
     margin: 40px auto;
@@ -281,14 +282,14 @@ iframe {
     background-color: rgba(255, 76, 30, 0.05);
     border-radius: 16px;
     padding: 10px;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px rgb(197, 193, 193);
 }
 
 .css-1 {
     background-color: rgba(255, 223, 0, 0.05);
     border-radius: 16px;
     padding: 10px;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px rgb(197, 193, 193);
 }
 
 .js-1 {
@@ -296,7 +297,7 @@ iframe {
     background-color: rgba(0, 76, 232, 0.05);
     border-radius: 16px;
     padding: 10px;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px rgb(197, 193, 193);
 }
 
 .link {
