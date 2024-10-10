@@ -338,3 +338,93 @@ iframe {
     background-color: rgb(180, 214, 148);
     transition: 0.15s ease-in;
 }
+
+/* feedback section */
+
+.feedback {
+    width: 900px;
+    /* border: 2px solid red; */
+    margin: 30px auto;
+    padding: 70px 90px;
+    height: 315px;
+    background-image: linear-gradient(90.00deg, rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.7)), url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.feedback-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+
+}
+
+.feedback-title {}
+
+.feedback-title>h2 {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.feedback-title>p {
+    color: rgb(255, 255, 255);
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.input-area {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    width: 400px;
+    height: 57px;
+    padding: 15px;
+    color: rgb(13, 19, 33, 0.4);
+}
+
+.input-text button {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    padding: 15px;
+    height: 57px;
+    width: 110px;
+    cursor: pointer;
+    font-size: 14px;
+    /* font-weight: 400; */
+
+
+
+    /* letter-spacing: 0%; */
+    text-align: center;
+}
+
+.input-text button:hover {
+    color: brown;
+    /* text-decoration: underline; */
+    background-color: burlywood;
+}
+
+.input-text {
+    display: flex;
+    gap: 5px;
+}
